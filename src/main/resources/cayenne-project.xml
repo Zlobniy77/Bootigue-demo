@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain project-version="7">
+	<map name="datamap"/>
+
+	<node name="datanode"
+		 factory="org.apache.cayenne.configuration.server.XMLPoolingDataSourceFactory"
+		 schema-update-strategy="org.apache.cayenne.access.dbsync.SkipSchemaUpdateStrategy"
+		>
+		<map-ref name="datamap"/>
+		<data-source>
+			<driver value="oracle.jdbc.driver.OracleDriver"/>
+			<url value="url here"/>
+			<connectionPool min="1" max="1"/>
+			<login userName="1" password="1"/>
+		</data-source>
+	</node>
+</domain>

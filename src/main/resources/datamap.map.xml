@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-map xmlns="http://cayenne.apache.org/schema/7/modelMap"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://cayenne.apache.org/schema/7/modelMap http://cayenne.apache.org/schema/7/modelMap.xsd"
+	 project-version="7">
+	<property name="defaultPackage" value="entity"/>
+	<db-entity name="SURVEYS" schema="DEFGO">
+		<db-attribute name="ALLOW_REPORTS" type="CHAR" length="1"/>
+		<db-attribute name="ANONYMOUS" type="CHAR" length="1"/>
+		<db-attribute name="CATI_PANEL_ID" type="INTEGER" length="19"/>
+		<db-attribute name="CLIENT_ID" type="INTEGER" length="10"/>
+		<db-attribute name="CLOSED" type="CHAR" length="1"/>
+		<db-attribute name="CONFIDENTIAL" type="INTEGER" length="10"/>
+		<db-attribute name="DELAYED" type="CHAR" length="1"/>
+		<db-attribute name="DELETED" type="INTEGER" length="1"/>
+		<db-attribute name="END_DATE" type="TIMESTAMP" length="11"/>
+		<db-attribute name="FOLDER_ID" type="INTEGER" length="10"/>
+		<db-attribute name="ID" type="INTEGER" isPrimaryKey="true" isMandatory="true" length="10"/>
+		<db-attribute name="IMPLEMENTATION" type="VARCHAR" length="4000"/>
+		<db-attribute name="JOB_TYPE" type="VARCHAR" length="255"/>
+		<db-attribute name="NOTES" type="VARCHAR" length="4000"/>
+		<db-attribute name="PUBLISHED_ACTIVE" type="CHAR" length="1"/>
+		<db-attribute name="PUBLISHED_END_DATE" type="TIMESTAMP" length="11"/>
+		<db-attribute name="PUBLISHED_PASSWORD" type="VARCHAR" length="255"/>
+		<db-attribute name="PUBLISHED_START_DATE" type="TIMESTAMP" length="11"/>
+		<db-attribute name="QUESTIONNAIRE_ID" type="INTEGER" length="10"/>
+		<db-attribute name="RECIPIENT_COUNT" type="INTEGER" length="19"/>
+		<db-attribute name="REMINDER" type="CHAR" length="1"/>
+		<db-attribute name="REMINDER_DATE" type="TIMESTAMP" length="11"/>
+		<db-attribute name="RUN_STATUS" type="VARCHAR" length="255"/>
+		<db-attribute name="SSL_ENABLED" type="CHAR" length="1"/>
+		<db-attribute name="START_DATE" type="TIMESTAMP" length="11"/>
+		<db-attribute name="STATUS" type="VARCHAR" length="255"/>
+		<db-attribute name="S_LANGUAGE" type="VARCHAR" length="255"/>
+		<db-attribute name="S_TYPE" type="VARCHAR" length="255"/>
+		<db-attribute name="TARGET_RESP" type="INTEGER" length="10"/>
+		<db-attribute name="TEMPLATE_TYPE" type="VARCHAR" isMandatory="true" length="255"/>
+		<db-attribute name="TITLE" type="VARCHAR" length="2000"/>
+	</db-entity>
+	<obj-entity name="Surveys" className="entity.Surveys" dbEntityName="SURVEYS">
+		<obj-attribute name="allowReports" type="java.lang.String" db-attribute-path="ALLOW_REPORTS"/>
+		<obj-attribute name="anonymous" type="java.lang.String" db-attribute-path="ANONYMOUS"/>
+		<obj-attribute name="catiPanelId" type="java.lang.Integer" db-attribute-path="CATI_PANEL_ID"/>
+		<obj-attribute name="clientId" type="java.lang.Integer" db-attribute-path="CLIENT_ID"/>
+		<obj-attribute name="closed" type="java.lang.String" db-attribute-path="CLOSED"/>
+		<obj-attribute name="confidential" type="java.lang.Integer" db-attribute-path="CONFIDENTIAL"/>
+		<obj-attribute name="delayed" type="java.lang.String" db-attribute-path="DELAYED"/>
+		<obj-attribute name="deleted" type="java.lang.Integer" db-attribute-path="DELETED"/>
+		<obj-attribute name="endDate" type="java.util.Date" db-attribute-path="END_DATE"/>
+		<obj-attribute name="folderId" type="java.lang.Integer" db-attribute-path="FOLDER_ID"/>
+		<obj-attribute name="implementation" type="java.lang.String" db-attribute-path="IMPLEMENTATION"/>
+		<obj-attribute name="jobType" type="java.lang.String" db-attribute-path="JOB_TYPE"/>
+		<obj-attribute name="notes" type="java.lang.String" db-attribute-path="NOTES"/>
+		<obj-attribute name="publishedActive" type="java.lang.String" db-attribute-path="PUBLISHED_ACTIVE"/>
+		<obj-attribute name="publishedEndDate" type="java.util.Date" db-attribute-path="PUBLISHED_END_DATE"/>
+		<obj-attribute name="publishedPassword" type="java.lang.String" db-attribute-path="PUBLISHED_PASSWORD"/>
+		<obj-attribute name="publishedStartDate" type="java.util.Date" db-attribute-path="PUBLISHED_START_DATE"/>
+		<obj-attribute name="questionnaireId" type="java.lang.Integer" db-attribute-path="QUESTIONNAIRE_ID"/>
+		<obj-attribute name="recipientCount" type="java.lang.Integer" db-attribute-path="RECIPIENT_COUNT"/>
+		<obj-attribute name="reminder" type="java.lang.String" db-attribute-path="REMINDER"/>
+		<obj-attribute name="reminderDate" type="java.util.Date" db-attribute-path="REMINDER_DATE"/>
+		<obj-attribute name="runStatus" type="java.lang.String" db-attribute-path="RUN_STATUS"/>
+		<obj-attribute name="sLanguage" type="java.lang.String" db-attribute-path="S_LANGUAGE"/>
+		<obj-attribute name="sType" type="java.lang.String" db-attribute-path="S_TYPE"/>
+		<obj-attribute name="sslEnabled" type="java.lang.String" db-attribute-path="SSL_ENABLED"/>
+		<obj-attribute name="startDate" type="java.util.Date" db-attribute-path="START_DATE"/>
+		<obj-attribute name="status" type="java.lang.String" db-attribute-path="STATUS"/>
+		<obj-attribute name="targetResp" type="java.lang.Integer" db-attribute-path="TARGET_RESP"/>
+		<obj-attribute name="templateType" type="java.lang.String" db-attribute-path="TEMPLATE_TYPE"/>
+		<obj-attribute name="title" type="java.lang.String" db-attribute-path="TITLE"/>
+	</obj-entity>
+</data-map>
