@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="io.bootique.cayenne:bootique-cayenne:0.17" type="repository">
+    <properties maven-id="io.bootique.cayenne:bootique-cayenne:0.17" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/bootique/cayenne/bootique-cayenne/0.17/bootique-cayenne-0.17.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/bootique/bootique/0.20/bootique-0.20.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/guice/4.0/guice-4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/16.0.1/guava-16.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.6.4/jackson-databind-2.6.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.6.0/jackson-annotations-2.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.6.4/jackson-core-2.6.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.6.4/jackson-dataformat-yaml-2.6.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/bootique/jdbc/bootique-jdbc/0.12/bootique-jdbc-0.12.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-jdbc/8.0.30/tomcat-jdbc-8.0.30.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-juli/8.0.30/tomcat-juli-8.0.30.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/cayenne/cayenne-server/4.0.M3/cayenne-server-4.0.M3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/cayenne/cayenne-di/4.0.M3/cayenne-di-4.0.M3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/velocity/velocity/1.6.3/velocity-1.6.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.4/commons-lang-2.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/oro/oro/2.0.8/oro-2.0.8.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/cayenne/cayenne-java8/4.0.M3/cayenne-java8-4.0.M3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
